@@ -743,7 +743,7 @@
                         <input type="city" class="form-control" placeholder="Your City" name="city" id="city" maxlength="30" required />
                     </div>
             </div>
-            <button type="submit" class="btn btn-primary btn-block p-2">Submit</button>
+            <button type="submit" id="submit" class="btn btn-primary btn-block p-2">Submit</button>
         </div>
         </form>
     </div>

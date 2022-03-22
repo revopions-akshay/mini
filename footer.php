@@ -452,6 +452,75 @@ $('body').bind('click', function(e){
 
 
 
+    <!--  Form Submission start -->
+<script>
+
+$(document).ready(function() {
+ 
+ var form = $('#form'),
+     name = $('#name'),
+     email = $('#email'),
+     subject = $('#mobile-number'),
+     subject = $('#model'),
+     subject = $('#state'),
+     subject = $('#city'),
+   
+   
+     info = $('#info'),
+     loader = $('#loader'),
+     submit = $("#submit");
+ 
+ form.on('input', 'name','#email, #mobile-number, #modal, #state, #city', function() {
+   $(this).css('border-color', '');
+   info.html('').slideUp();
+ });
+ 
+ submit.on('click', function(e) {
+   info.html('Loading...').css('color', 'red').slideDown();
+   e.preventDefault();
+   if(validate()) {
+     $.ajax({
+       type: "POST",
+       url: "mailer.php",
+       data: form.serialize(),
+       dataType: "json"
+     }).done(function(data) {
+       if(data.success) {
+         email.val('');
+         name.val('');
+         mobile-number.val('');
+         modal.val('');
+         state.val('');
+         city.val('');
+
+         info.html('Message sent!').css('color', 'green').slideDown();
+       } else {
+         info.html('Could not send mail! Sorry!').css('color', 'red').slideDown();
+       }
+     });
+   }
+ });
+ 
+ function validate() {
+   var valid = true;
+   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+   
+   if(!regex.test(email.val())) {
+     email.css('border-color', 'red');
+     valid = false;
+   }
+   if($.trim(name.val()) === "") {
+     subject.css('border-color', 'red');
+     valid = false;
+   }
+
+   
+   return valid;
+ }
+
+});
+  </script>
+
 </body>
 
 </html>
