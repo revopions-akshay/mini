@@ -295,7 +295,7 @@ $('body').bind('click', function(e){
         });
         // slider setup
         masterslider_d1da.setup("MS5c9b6f3967f07", {
-            width: 1300,
+            width: 1250,
             height: 600,
             minHeight: 0,
             space: 0,

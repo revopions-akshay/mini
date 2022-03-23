@@ -11,7 +11,7 @@ if($_POST) {
 
   
 
-  $to = "phpcodertech@gmail.com"; // your mail here
+  $to = "info@mini-metro.com"; // your mail here
   $email = $email;
   $subject = 'Mini Metro Enquiry';
   $body = "Name: $name\nE-mail: $email\nContact-Number: $contact\nModal: $modal\nState: $state\nCity: $city";
