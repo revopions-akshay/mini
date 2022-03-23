@@ -20,13 +20,18 @@
     <link rel=stylesheet href="css/font2/font-awesome.min.css" type=text/css media=all>
     <link rel=stylesheet href="css/font2/font-awesome.css" type=text/css media=all>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesomeall.min.css">
+    <link rel="stylesheet" href="css/bootstrap46.min.css"  crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
     <link rel="stylesheet" href="css/product_cat.css" />
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate411.min.css"/>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/proper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap4.min.js"></script>
+
  
     
     
