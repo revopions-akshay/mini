@@ -29,7 +29,7 @@
 <div class="limoking-page-title-wrapper header-style-2-title-wrapper">
     <div class=limoking-page-title-overlay></div>
     <div class="limoking-page-title-container container">
-        <h1 class="limoking-page-title">Contact Us</h1>
+        <h1 class="limoking-page-title" style="color: #000;">Contact Us</h1>
         <!-- <span class=limoking-page-caption>Caption placed here</span> -->
     </div>
 </div>

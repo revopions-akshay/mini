@@ -154,9 +154,29 @@
             <div class=clear></div>
         </div>
     </div>
+
+    <a href="https://api.whatsapp.com/send?phone=+919068366033&amp;text= Hello Rana Path Labs and Research Centre" target="_blank" class="whatsapp-sidecon">
+        <img src="https://ranapathlabs.com/wp-content/uploads/2022/01/whatsapp-logo-1.png"> 
+    </a>
+
+
 </footer>
 </div>
+<style>
+    .whatsapp-sidecon {
+    position: fixed;
+    border-radius: 63px;
+    width: 43px;
+    z-index: 99999;
+    -webkit-box-shadow: 0px 0px 7px 0px #0404046b;
+    box-shadow: 0px 0px 12px -2px #0404045c;
+    left: 25px;
+    bottom: 10%;
+}
 
+
+
+</style>
 
 <!-- Modal for auto open Ends-->
 
@@ -517,6 +537,23 @@ $(document).ready(function() {
 
 });
   </script>
+
+
+<!-- <script  type="text/javascript">
+  var config = {
+    phone :" 917617787857",
+    call :"Message Us",
+    position :"ww-left",
+    size : "ww-normal",
+    text : "",
+  };
+  var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+    var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/main.js";
+    s.onload = function () { tmWidgetInit(config) };
+    var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+</script> -->
+
+
 
 </body>
 
