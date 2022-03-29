@@ -155,8 +155,8 @@
         </div>
     </div>
 
-    <a href="https://api.whatsapp.com/send?phone=+919068366033&amp;text= Hello Rana Path Labs and Research Centre" target="_blank" class="whatsapp-sidecon">
-        <img src="https://ranapathlabs.com/wp-content/uploads/2022/01/whatsapp-logo-1.png"> 
+    <a href="https://api.whatsapp.com/send?phone=+917617787857&amp;text= Hello Rana Path Labs and Research Centre" target="_blank" class="whatsapp-sidecon">
+        <img src="images/whatsapp-logo-1.png"> 
     </a>
 
 
